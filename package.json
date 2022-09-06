@@ -1,0 +1,16 @@
+{
+  "name": "xajs",
+  "version": "0.0.1",
+  "private": true,
+  "packageManager": "pnpm@7.10.0",
+  "description": "some...",
+  "keywords": [],
+  "homepage": "https://github.com/xajsrain/xajs",
+  "scripts": {
+    "docs": "pnpm run -C packages/xajs-docs docs:dev",
+    "preinstall": "npx -y pnpm"
+  },
+  "main": "index.js",
+  "author": "xajsrain",
+  "license": "MIT"
+}
